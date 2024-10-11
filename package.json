@@ -1,0 +1,27 @@
+{
+  "name": "nodebootstraper",
+  "version": "5.0.0",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bootstrap-icons": "^1.11.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "*",
+    "method-override": "*",
+    "mongoose": "^8.7.0",
+    "morgan": "*",
+    "nod": "^0.2.0",
+    "node": "^20.18.0",
+    "pug": "*",
+    "serve-favicon": "*",
+    "stylus": "*"
+  },
+  "engines": {
+    "node": "20.18.0",
+    "npm": "10.8.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  }
+}
