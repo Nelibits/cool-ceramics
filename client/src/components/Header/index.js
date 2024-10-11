@@ -12,7 +12,7 @@ const Header = ({ cart, isAdminConnected, onAdminDisconnect }) => {
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src="/images/placeholder-logo.png" alt="Logo" style={{ height: '60px'     }} />
+            <img src="/images/logo-white.png" alt="Logo" style={{ height: '60px'     }} />
           </Link>
           <button
             className="navbar-toggler"

@@ -10,6 +10,9 @@ class Footer extends Component {
       <footer className="footer mt-auto py-3 bg-light">
         <div className="container">
           <span className="text-muted">&copy;&nbsp;<Link to='/author'>Arantz Nekya</Link> 2024</span>
+          <Link className="footer-logo" to="/">
+            <img src="/images/logo-black.png" alt="Logo" style={{ height: '60px'     }} />
+          </Link>
           <div>
             Information about whatever blablabla
           </div>
