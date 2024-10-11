@@ -9,10 +9,10 @@ const Header = ({ cart, isAdminConnected, onAdminDisconnect }) => {
 
   return (
     <header>
-      <nav className="header navbar navbar-expand-md navbar-dark fixed-top">
+      <nav className="navbar navbar-expand-md navbar-dark fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src="/images/logo-white.png" alt="Logo" style={{ height: '60px'     }} />
+            <img src="/images/logo-white.png" alt="Logo" style={{ height: '60px' }} />
           </Link>
           <button
             className="navbar-toggler"

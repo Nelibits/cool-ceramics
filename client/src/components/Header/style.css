@@ -1,4 +1,4 @@
-.header {
+.navbar {
   background-color: #8B4513 !important;
 }
 
@@ -9,7 +9,7 @@ ul.navbar-nav a {
 }
 
 ul.navbar-nav a:hover {
-  color: #EADDCA;
+  color: lightblue;
 }
 
 .navbar-logo {

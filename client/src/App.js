@@ -41,7 +41,7 @@ const App = () => {
         <Header cart={cart} isAdminConnected={isAdminConnected} onAdminDisconnect={handleAdminDisconnect}/>
 
         <main className="flex-shrink-0">
-          <div class Name="container">
+          <div className="container">
             <Routes>
               <Route exact path="/" element={<Home/>} />
               <Route path="/store" element={<Store cart={cart} setCart={setCart} />} />

@@ -9,14 +9,12 @@ class Footer extends Component {
     return (
       <footer className="footer mt-auto py-3 bg-light">
         <div className="container">
-          <span className="text-muted">&copy;&nbsp;<Link to='/author'>Arantz Nekya</Link> 2024</span>
-          <Link className="footer-logo" to="/">
-            <img src="/images/logo-black.png" alt="Logo" style={{ height: '60px'}} />
-          </Link>
+          <span className="text-muted">&copy;&nbsp;<Link to='/author'>Author</Link> 2023</span>
+          <img src="/images/logo-black.png" alt="Logo" style={{ height: '60px' }} />
           <div className="text-muted">
             <p>Contact</p>
             <p>arantz@nekya.com</p>
-            <p>tlfn: 666 66 66 666</p>            
+            <p>tlfn: 666 66 66 666</p>          
           </div>
         </div>
       </footer>
