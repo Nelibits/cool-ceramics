@@ -1,3 +1,7 @@
+.header {
+  background-color: #8B4513 !important;
+}
+
 ul.navbar-nav a {
   text-decoration: none;
   margin: 0 10px 0 0;

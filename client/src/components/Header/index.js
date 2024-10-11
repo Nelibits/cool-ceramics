@@ -9,7 +9,7 @@ const Header = ({ cart, isAdminConnected, onAdminDisconnect }) => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav className="header navbar navbar-expand-md navbar-dark fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img src="/images/logo-white.png" alt="Logo" style={{ height: '60px'     }} />

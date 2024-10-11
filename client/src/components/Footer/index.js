@@ -11,10 +11,12 @@ class Footer extends Component {
         <div className="container">
           <span className="text-muted">&copy;&nbsp;<Link to='/author'>Arantz Nekya</Link> 2024</span>
           <Link className="footer-logo" to="/">
-            <img src="/images/logo-black.png" alt="Logo" style={{ height: '60px'     }} />
+            <img src="/images/logo-black.png" alt="Logo" style={{ height: '60px'}} />
           </Link>
           <div>
-            Information about whatever blablabla
+            <p>Contact</p>
+            <p>arantz@nekya.com</p>
+            <p>tlfn: 666 66 66 666</p>            
           </div>
         </div>
       </footer>
