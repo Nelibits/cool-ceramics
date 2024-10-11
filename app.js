@@ -28,7 +28,7 @@ var app = express();
 app.use(cors());
 app.use(express.json());
 
-app.set('port', process.env.PORT || 3070
+app.set('port', process.env.PORT || 3075
 );
 app.use(favicon(__dirname + '/public/images/favicon.png'));
 app.use(logger('dev'));

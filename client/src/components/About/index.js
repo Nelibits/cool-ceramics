@@ -24,14 +24,13 @@ class About extends Component {
                 my pottery to be part of your home.
               </p>
             </div>
-            <div className="col-md-6 d-flex justify-content-center align-items-center">
+            <div className="image col-md-6">
               <img 
                 src="/images/headshot.jpg" 
                 alt="Nelida"
                 style={{
                   width: '300px', 
                   height: '450px',
-                  borderRadius: '15%', 
                   objectFit: 'cover', 
                 }}
               />
