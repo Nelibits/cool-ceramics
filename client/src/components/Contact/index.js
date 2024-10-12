@@ -11,19 +11,19 @@ class Contact extends Component {
             <div className="col-md-6">
               <h3>Get in Touch</h3>
               <p>
-                We’d love to hear from you! Please use the contact information below to reach us.
+                I’d love to hear from you! Please use the contact information on the side to reach me.
               </p>
             </div>
             <div className="col-md-6">
               <h3>Contact Information</h3>
               <p>
-                <strong>Address:</strong> 123 Pottery Lane, Art Town, USA
+                <strong>Address:</strong> 123 Pottery Lane, Art Town, AnyWhere
               </p>
               <p>
-                <strong>Phone:</strong> (123) 456-7890
+                <strong>Phone:</strong> 666 66 66 666
               </p>
               <p>
-                <strong>Email:</strong> contact@potterystore.com
+                <strong>Email:</strong> arantz@nekya.com
               </p>
               <p>
                 Follow us on social media:
