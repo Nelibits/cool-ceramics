@@ -11,16 +11,16 @@ class About extends Component {
               <h1>About Me</h1>
               <div className="mb-4" /> 
               <p>
-                Welcome to our pottery store! We specialize in handcrafted pottery made with love and care. 
+                Welcome to my pottery store! I specialize in handcrafted pottery made with love and care. 
                 Each piece is uniquely designed, reflecting the beauty and tradition of pottery-making. 
-                Our mission is to bring joy to your home with beautiful and functional ceramics that serve 
-                both artistic and practical purposes. From dinnerware to decorative items, our collection 
+                My mission is to bring joy to your home with beautiful and functional ceramics that serve 
+                both artistic and practical purposes. From dinnerware to decorative items, my collection 
                 is crafted to enhance your living space and bring a touch of elegance to your life.
               </p>
               <p>
-                We are passionate about pottery and strive to provide our customers with high-quality products 
+                I'm passionate about pottery and strive to provide my customers with high-quality products 
                 that celebrate the art of ceramics. Thank you for supporting local artisans and choosing 
-                our pottery to be part of your home.
+                my pottery to be part of your home.
               </p>
             </div>
             <div className="col-md-6 d-flex justify-content-center align-items-center">

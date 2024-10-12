@@ -26,7 +26,7 @@ class Contact extends Component {
                 <strong>Email:</strong> arantz@nekya.com
               </p>
               <p>
-                Follow us on social media:
+                Follow me on social media:
                 <br />
                 <a href="#" className="me-2">Facebook</a>
                 <a href="#" className="me-2">Instagram</a>
