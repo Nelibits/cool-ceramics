@@ -1,30 +1,30 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Checkout = ({ cart, setCart }) => {
-  const navigate = useNavigate();
-  
-  // Increase quantity in the cart
-  const increaseCartQuantity = (id) => {
-    const updatedCart = cart.map(item =>
-      item._id === id ? { ...item, quantity: item.quantity + 1 } : item
-    );
-    setCart(updatedCart);
-  };
+  const Checkout = ({ cart, setCart }) => {
+    const navigate = useNavigate();
+    
+    // Increase quantity in the cart
+    const increaseCartQuantity = (id) => {
+      const updatedCart = cart.map(item =>
+        item._id === id ? { ...item, quantity: item.quantity + 1 } : item
+      );
+      setCart(updatedCart);
+    };
 
-  // Decrease quantity in the cart, ensuring it doesn't go below 1
-  const decreaseCartQuantity = (id) => {
-    const updatedCart = cart.map(item =>
-      item._id === id && item.quantity > 1 ? { ...item, quantity: item.quantity - 1 } : item
-    );
-    setCart(updatedCart);
-  };
+    // Decrease quantity in the cart, ensuring it doesn't go below 1
+    const decreaseCartQuantity = (id) => {
+      const updatedCart = cart.map(item =>
+        item._id === id && item.quantity > 1 ? { ...item, quantity: item.quantity - 1 } : item
+      );
+      setCart(updatedCart);
+    };
 
-  // Remove item from the cart
-  const removeFromCart = (id) => {
-    const updatedCart = cart.filter(item => item._id !== id);
-    setCart(updatedCart);
-  };
+    // Remove item from the cart
+    const removeFromCart = (id) => {
+      const updatedCart = cart.filter(item => item._id !== id);
+      setCart(updatedCart);
+    };
 
   // Calculate the total price
   const calculateTotal = () => {
