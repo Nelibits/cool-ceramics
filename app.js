@@ -18,7 +18,7 @@ var express = require('express')
   const cors = require('cors');
 
   // Load environment variables
-  //require('dotenv').config();
+  require('dotenv').config();
   
   // Connect to MongoDB by default with read access user
   connectDB();
@@ -28,7 +28,7 @@ var app = express();
 app.use(cors());
 app.use(express.json());
 
-app.set('port', process.env.PORT || 3087
+app.set('port', process.env.PORT || 3108
 );
 app.use(favicon(__dirname + '/public/images/favicon.png'));
 app.use(logger('dev'));

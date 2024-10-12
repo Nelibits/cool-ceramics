@@ -30,7 +30,6 @@ class About extends Component {
                 style={{
                   width: '300px', 
                   height: '450px',
-                  borderRadius: '30%', 
                   objectFit: 'cover', 
                 }}
               />

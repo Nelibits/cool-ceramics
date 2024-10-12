@@ -14,14 +14,14 @@ class Home extends Component {
         />
         <div className="d-flex flex-column justify-content-center align-items-center h-100 text-center">
           <div className="bg-light p-4 rounded" style={{ zIndex: 1 }}> {/* Added a background for better readability */}
-            <h1 className="mb-4">Welcome to Our Pottery Store</h1>
+            <h1 className="mb-4">Welcome to Arantz Nekya</h1>
             <p className="lead mb-4">
               Discover the beauty of handcrafted pottery. Each piece is uniquely made with love, 
               combining artistry and functionality. Our collection features a variety of 
               ceramics, from dinnerware to decorative items, perfect for adding a touch of elegance 
               to your home.
             </p>
-            <a href="/shop" className="btn btn-primary btn-lg">Go to Shop</a>
+            <a href="/store" className="btn btn-primary btn-lg">Go to Shop</a>
           </div>
         </div>
       </div>

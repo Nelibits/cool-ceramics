@@ -5,7 +5,6 @@ let isConnected = false; // Track connection status
 
 const connectDB = async () => {
   if (isConnected) return; // Prevent reconnecting if already connected. Evita que se conecte otra vez con mongodb, porque desde el inicio en client se conecta a mongodb. Si estás como admin, deberías ver el store también.
-
   try {
     await mongoose.connect(process.env.MONGODB_URI);
     isConnected = true;
@@ -36,4 +35,4 @@ const disconnectDB = async () => {
   isConnected = false;
 };
 
-module.exports = { connectDB, connectAdminDB, disconnectDB };
+module.exports = { connectDB, connectAdminDB, disconnectDB };  
